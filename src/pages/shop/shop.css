@@ -58,3 +58,33 @@
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .shopTitle {
+    margin-bottom: 200px;
+    font-size: 30px;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+    /* Switch to a single column layout on mobile */
+  }
+
+  .product {
+    width: 90%;
+    margin: 10px;
+    margin-bottom: 300px;
+  }
+
+  .addToCartBttn {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
