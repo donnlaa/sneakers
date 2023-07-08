@@ -66,6 +66,16 @@
   margin-bottom: 50px;
 }
 
+.filter a {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.filter a:hover {
+  border-bottom: 3px solid rgb(19, 19, 19);
+}
+
 @media (max-width: 768px) {
   .shopTitle {
     margin-bottom: 200px;
