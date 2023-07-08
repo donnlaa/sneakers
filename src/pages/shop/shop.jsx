@@ -9,10 +9,15 @@ export const Shop = () => {
             <div className='shopTitle'>
                 <h1>Sneaker Shop</h1>
             </div>
+            <div className='filter'>
+                <a href=""><p>Women</p></a>
+                <a href=""><p>Men</p></a>
+                <a href=""><p>Kids</p></a>
+            </div>
             <div className='products'>
                 {" "}
                 {PRODUCTS.map((product) => (
-                <Product data={product}/>
+                    <Product data={product} />
                 ))}
             </div>
         </div>
